@@ -13,7 +13,9 @@ export default async function runRetypeSelectedText(
   }
 
   const selection = editor.selection;
-  const selectedText = editor.document.getText(editor.selection);
+  let selectedText = editor.document.getText(editor.selection);
+
+  selectedText = selectedText.replace(/\r\n/g, "\n"); //otherwise it does 2 new lines for crlf line endings
 
   editor.edit((editBuilder) => {
     editBuilder.replace(selection, "");
