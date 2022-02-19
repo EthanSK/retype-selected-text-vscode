@@ -2,7 +2,8 @@
   "name": "retype-selected-text",
   "displayName": "retype-selected-text",
   "description": "Retypes out the selected text at a specified speed. Useful for recording coding montages.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "publisher": "EthanSK",
   "icon": "icon.png",
   "repository": {
     "type": "git",
@@ -34,7 +35,7 @@
       "properties": {
         "retypeSelectedText.speed": {
           "type": "number",
-          "default": "50",
+          "default": 50,
           "description": "Number of characters to type out per second"
         }
       }
