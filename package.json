@@ -2,7 +2,7 @@
   "name": "retype-selected-text",
   "displayName": "retype-selected-text",
   "description": "Retypes out the selected text at a specified speed. Useful for recording coding montages.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.64.0"
   },
