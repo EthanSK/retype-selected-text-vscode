@@ -3,6 +3,11 @@
   "displayName": "retype-selected-text",
   "description": "Retypes out the selected text at a specified speed. Useful for recording coding montages.",
   "version": "1.0.0",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EthanSK/retype-selected-text-vscode"
+  },
   "engines": {
     "vscode": "^1.64.0"
   },
