@@ -3,7 +3,7 @@ import * as vscode from "vscode";
 
 const configBaseName = "retypeSelectedText";
 
-const defaultSpeedCharsPerSec = 10;
+const defaultSpeedCharsPerSec = 50;
 
 export default function getConfig(): RetypeSelectedTextConfig {
   return {

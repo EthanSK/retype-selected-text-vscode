@@ -24,13 +24,16 @@ export default async function runRetypeSelectedText(
   for (let i = 0; i < selectedText.length; i++) {
     await delay(delayBetweenEachCharMs);
     if (cancelObj.isCancelled) {
+      editor.edit((editBuilder) => {
+        editBuilder.replace(selection, selectedText);
+      });
       break;
     }
 
     const char = selectedText.charAt(i);
 
     editor.edit((editBuilder) => {
-      editBuilder.insert(selection.end, char);
+      editBuilder.insert(editor.selection.active, char);
     });
   }
 }

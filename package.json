@@ -29,7 +29,7 @@
       "properties": {
         "retypeSelectedText.speed": {
           "type": "number",
-          "default": "10",
+          "default": "50",
           "description": "Number of characters to type out per second"
         }
       }
