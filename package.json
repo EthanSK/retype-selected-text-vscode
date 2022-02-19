@@ -18,6 +18,10 @@
       {
         "command": "retype-selected-text.run",
         "title": "Run Retype Selected Text"
+      },
+      {
+        "command": "retype-selected-text.cancel",
+        "title": "Cance Retype Selected Text"
       }
     ],
     "configuration": {
