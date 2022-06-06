@@ -2,7 +2,7 @@
   "name": "retype-selected-text",
   "displayName": "retype-selected-text",
   "description": "Retypes out the selected text at a specified speed. Useful for recording coding montages.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "EthanSK",
   "icon": "icon.png",
   "repository": {
@@ -27,7 +27,7 @@
       },
       {
         "command": "retype-selected-text.cancel",
-        "title": "Cance Retype Selected Text"
+        "title": "Cancel Retype Selected Text"
       }
     ],
     "configuration": {
